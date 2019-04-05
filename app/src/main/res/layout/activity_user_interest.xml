@@ -5,9 +5,10 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context=".UserInterestActivity">
+  tools:context=".userInterest.UserInterestActivity">
 
   <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/interestRecyclerView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_constraintBottom_toBottomOf="parent"
